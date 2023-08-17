@@ -35,7 +35,8 @@ gitDiff().grep("bug").less          // sequences of swift objects
   s.source_files          = 'RxSwift/**/*.swift', 'Platform/**/*.swift'
   s.exclude_files         = 'RxSwift/Platform/**/*.swift'
 
-  s.swift_version = '5.1'
+  s.swift_version = '5.5'
+  s.swift_versions = ['5.5']
 
   s.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
 end
